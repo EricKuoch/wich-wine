@@ -16,7 +16,6 @@ services:
       - ./backend:/app
     working_dir: /app
     command: sh -c "bundle install && rake db:create db:migrate && rails server -p 3000 -b 0.0.0.0"
-    # command: sh -c "bundle install && rails server -p 3000 -b 0.0.0.0"
     ports:
       - "3000:3000"
     environment:
@@ -31,12 +30,12 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - postgres_data2:/var/lib/postgresql/data
     environment:
       POSTGRES_DB: myapp_development
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
 
 volumes:
-  postgres_data:
+  postgres_data2:
     driver: local

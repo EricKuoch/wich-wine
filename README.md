@@ -10,5 +10,5 @@ This is a boilerplate composed by a react app (frontend) and a ruby on rails app
 
 ## Details
 
-The frontend in available on port 3000.
-The backend is available on port 3001.
+- The frontend in available on port 8080.
+- The backend is available on port 3000.

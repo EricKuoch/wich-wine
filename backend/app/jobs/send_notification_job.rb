@@ -2,12 +2,13 @@ class SendNotificationJob < ApplicationJob
   queue_as :default
 
   def perform(notifications)
+    logger = Logger.new(STDOUT)
     notifications.each do |notif|
-      p notif.message
+      logger.info notif.message
       NotificationMailer.notification_email(notif.user, notif).deliver_now
       notif.update(status: 'sent')
     rescue StandardError => e
-      p e  
+      logger.error e
       notif.update(status: 'failed')
     end
   end

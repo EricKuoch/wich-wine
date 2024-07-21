@@ -1,0 +1,328 @@
+{
+  "wines": [
+    {
+      "name": "Chardonnay",
+      "age": 5,
+      "vineyard": "Chateau de France",
+      "region": "Burgundy",
+      "grape_variety": "Chardonnay",
+      "alcohol_content": 13.5,
+      "description": "A rich and full-bodied Chardonnay.",
+      "prices": [
+        {
+          "price": 20.0,
+          "date": "2024-07-21",
+          "website": {
+            "name": "Wine Store",
+            "url": "http://winestore.com"
+          }
+        },
+        {
+          "price": 22.0,
+          "date": "2024-06-15",
+          "website": {
+            "name": "Best Wines Online",
+            "url": "http://bestwinesonline.com"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Merlot",
+      "age": 3,
+      "vineyard": "Vineyard of Dreams",
+      "region": "Bordeaux",
+      "grape_variety": "Merlot",
+      "alcohol_content": 14.0,
+      "description": "A smooth and fruity Merlot.",
+      "prices": [
+        {
+          "price": 25.0,
+          "date": "2024-07-20",
+          "website": {
+            "name": "Wine Store",
+            "url": "http://winestore.com"
+          }
+        },
+        {
+          "price": 27.0,
+          "date": "2024-05-10",
+          "website": {
+            "name": "Vino Haven",
+            "url": "http://vinohaven.com"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cabernet Sauvignon",
+      "age": 7,
+      "vineyard": "Napa Valley Vineyards",
+      "region": "Napa Valley",
+      "grape_variety": "Cabernet Sauvignon",
+      "alcohol_content": 15.0,
+      "description": "A bold and robust Cabernet Sauvignon.",
+      "prices": [
+        {
+          "price": 30.0,
+          "date": "2024-07-19",
+          "website": {
+            "name": "Elite Wines",
+            "url": "http://elitewines.com"
+          }
+        },
+        {
+          "price": 32.0,
+          "date": "2024-04-25",
+          "website": {
+            "name": "Wine Boutique",
+            "url": "http://wineboutique.com"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sauvignon Blanc",
+      "age": 2,
+      "vineyard": "Chateau Sauvignon",
+      "region": "Loire Valley",
+      "grape_variety": "Sauvignon Blanc",
+      "alcohol_content": 12.0,
+      "description": "A crisp and refreshing Sauvignon Blanc.",
+      "prices": [
+        {
+          "price": 18.0,
+          "date": "2024-07-18",
+          "website": {
+            "name": "Wine Warehouse",
+            "url": "http://winewarehouse.com"
+          }
+        },
+        {
+          "price": 19.0,
+          "date": "2024-03-10",
+          "website": {
+            "name": "Great Wines",
+            "url": "http://greatwines.com"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pinot Noir",
+      "age": 6,
+      "vineyard": "Pinot Noir Estates",
+      "region": "Sonoma",
+      "grape_variety": "Pinot Noir",
+      "alcohol_content": 13.0,
+      "description": "A light and elegant Pinot Noir.",
+      "prices": [
+        {
+          "price": 22.0,
+          "date": "2024-07-17",
+          "website": {
+            "name": "Vino World",
+            "url": "http://vinoworld.com"
+          }
+        },
+        {
+          "price": 24.0,
+          "date": "2024-02-20",
+          "website": {
+            "name": "Wine Lovers",
+            "url": "http://winelovers.com"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Syrah",
+      "age": 4,
+      "vineyard": "Syrah Central",
+      "region": "Rhône Valley",
+      "grape_variety": "Syrah",
+      "alcohol_content": 14.5,
+      "description": "A spicy and intense Syrah.",
+      "prices": [
+        {
+          "price": 28.0,
+          "date": "2024-07-16",
+          "website": {
+            "name": "Red Wine Depot",
+            "url": "http://redwinedepot.com"
+          }
+        },
+        {
+          "price": 30.0,
+          "date": "2024-01-15",
+          "website": {
+            "name": "Fine Wines Direct",
+            "url": "http://finewinesdirect.com"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Zinfandel",
+      "age": 8,
+      "vineyard": "Zinfandel Hills",
+      "region": "California",
+      "grape_variety": "Zinfandel",
+      "alcohol_content": 15.5,
+      "description": "A rich and spicy Zinfandel.",
+      "prices": [
+        {
+          "price": 35.0,
+          "date": "2024-07-15",
+          "website": {
+            "name": "Top Wines",
+            "url": "http://topwines.com"
+          }
+        },
+        {
+          "price": 37.0,
+          "date": "2024-06-10",
+          "website": {
+            "name": "The Wine Shop",
+            "url": "http://thewineshop.com"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Riesling",
+      "age": 3,
+      "vineyard": "Riesling Vineyard",
+      "region": "Mosel",
+      "grape_variety": "Riesling",
+      "alcohol_content": 11.5,
+      "description": "A sweet and aromatic Riesling.",
+      "prices": [
+        {
+          "price": 17.0,
+          "date": "2024-07-14",
+          "website": {
+            "name": "White Wine Heaven",
+            "url": "http://whitewineheaven.com"
+          }
+        },
+        {
+          "price": 19.0,
+          "date": "2024-05-05",
+          "website": {
+            "name": "Vineyard Shop",
+            "url": "http://vineyardshop.com"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tempranillo",
+      "age": 5,
+      "vineyard": "Tempranillo Estates",
+      "region": "Rioja",
+      "grape_variety": "Tempranillo",
+      "alcohol_content": 13.5,
+      "description": "A full-bodied and smooth Tempranillo.",
+      "prices": [
+        {
+          "price": 23.0,
+          "date": "2024-07-13",
+          "website": {
+            "name": "Spanish Wines",
+            "url": "http://spanishwines.com"
+          }
+        },
+        {
+          "price": 25.0,
+          "date": "2024-04-10",
+          "website": {
+            "name": "Wine Palace",
+            "url": "http://winepalace.com"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Malbec",
+      "age": 6,
+      "vineyard": "Malbec Corner",
+      "region": "Mendoza",
+      "grape_variety": "Malbec",
+      "alcohol_content": 14.0,
+      "description": "A bold and fruity Malbec.",
+      "prices": [
+        {
+          "price": 26.0,
+          "date": "2024-07-12",
+          "website": {
+            "name": "Argentine Wines",
+            "url": "http://argentinewines.com"
+          }
+        },
+        {
+          "price": 28.0,
+          "date": "2024-03-25",
+          "website": {
+            "name": "Global Wines",
+            "url": "http://globalwines.com"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gewürztraminer",
+      "age": 4,
+      "vineyard": "Traminer Vineyards",
+      "region": "Alsace",
+      "grape_variety": "Gewürztraminer",
+      "alcohol_content": 12.5,
+      "description": "A fragrant and spicy Gewürztraminer.",
+      "prices": [
+        {
+          "price": 21.0,
+          "date": "2024-07-11",
+          "website": {
+            "name": "Wine Country",
+            "url": "http://winecountry.com"
+          }
+        },
+        {
+          "price": 23.0,
+          "date": "2024-02-05",
+          "website": {
+            "name": "Gourmet Wines",
+            "url": "http://gourmetwines.com"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Champagne",
+      "age": 10,
+      "vineyard": "Champagne House",
+      "region": "Champagne",
+      "grape_variety": "Chardonnay/Pinot Noir",
+      "alcohol_content": 12.0,
+      "description": "A sparkling and elegant Champagne.",
+      "prices": [
+        {
+          "price": 50.0,
+          "date": "2024-07-10",
+          "website": {
+            "name": "Luxury Wines",
+            "url": "http://luxurywines.com"
+          }
+        },
+        {
+          "price": 55.0,
+          "date": "2024-01-20",
+          "website": {
+            "name": "Celebration Wines",
+            "url": "http://celebrationwines.com"
+          }
+        }
+      ]
+    }
+  ]
+}

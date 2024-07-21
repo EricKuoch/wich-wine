@@ -3,12 +3,8 @@ class FetchWinesApiService
   require 'rest-client'
   
   def initialize(**params)
-    @url = url
-    @headers = {
-      'content-type': "application/json",
-      'x-apikey': "-------",
-      'cache-control': "no-cache"
-    }
+    @url = params[:url]
+    @headers = params[:headers]
   end    
 
   def call

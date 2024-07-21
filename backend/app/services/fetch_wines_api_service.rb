@@ -5,12 +5,16 @@ class FetchWinesApiService
   def initialize(**params)
     @url = params[:url]
     @headers = params[:headers]
+    @logger = Logger.new(STDOUT)
   end    
 
   def call
       res = RestClient.get(@url, @headers)
-      body = JSON.parse(res, { symbolize_names: true })
-      body
+      if res.code == 200
+        JSON.parse(res, { symbolize_names: true })
+      else
+        @logger.error 'Request failed'
+      end
   end
 
   

@@ -17,9 +17,9 @@ class Wine < ApplicationRecord
   private
 
   def call_alert_match_service
-    alert_service = AlertWinesMatchService.new(self)
-    alert_service.create_notifications
-    alert_service.send_notification
+    wine_attributes = attributes.slice("name", "region", "vineyard", "age").transform_keys(&:to_sym)
+    alert_service = AlertWinesMatchService.new(wine_attributes)
+    alert_service.send_notifications
   end
 
 end
